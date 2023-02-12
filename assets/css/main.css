@@ -2468,7 +2468,7 @@ input, select, textarea {
 	}
 
 	:-moz-placeholder {
-		color: rgba(255, 255, 255, 0.35) !important;
+		color: rgba(182, 234, 218, 0.35) !important;
 		opacity: 1.0;
 	}
 
@@ -2558,6 +2558,36 @@ input, select, textarea {
 				.wrapper.style3-alt .icon.major:before {
 					color: #953d75;
 				}
+				
+				
+				.wrapper.style4 .icon.major:before {
+					color: #03001C;
+				}
+
+				.wrapper.style4-alt .icon.major:before {
+					color: #03001C;
+				}
+
+				
+				.wrapper.style5 .icon.major:before {
+					color: #03001C;
+				}
+
+				.wrapper.style5-alt .icon.major:before {
+					color: #03001C;
+				}
+
+				.wrapper.style11 {
+					color: #03001C;
+				}
+		
+				.wrapper.style11-alt {
+					color: #03001C;
+				}
+		
+
+
+
 
 /* Image */
 
@@ -3256,12 +3286,23 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background-color: #b74e91;
+			background-color: #5B8FB9;
 		}
 
 		.wrapper.style3-alt {
 			background-color: #953d75;
 		}
+
+		
+		.wrapper.style11 {
+			background-color: #5B8FB9;
+		}
+
+		.wrapper.style11-alt {
+			background-color: #953d75;
+		}
+
+
 
 		.wrapper.fullscreen {
 			display: -moz-flex;

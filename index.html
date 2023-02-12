@@ -6,12 +6,14 @@
 -->
 <html>
 	<head>
-		<title>Hyperspace by HTML5 UP</title>
+		<title>Jack Koltermann's Portfolio</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
+
+	
 	<body class="is-preload">
 
 		<!-- Sidebar -->
@@ -20,117 +22,99 @@
 					<nav>
 						<ul>
 							<li><a href="#intro">Welcome</a></li>
-							<li><a href="#one">Who we are</a></li>
-							<li><a href="#two">What we do</a></li>
+							
+							<li><a href="#one">Portfolio Projects</a></li>
+							<!--
+							<li><a href="#two">Natural Language Processing</a></li>
+							<li><a href="#four">Lasso Regression</a></li> -->
 							<li><a href="#three">Get in touch</a></li>
+
+
 						</ul>
 					</nav>
 				</div>
 			</section>
 
+  <!--<a href="http://html5up.net">HTML5 UP</a> --> 
 		<!-- Wrapper -->
 			<div id="wrapper">
 
-				<!-- Intro -->
 					<section id="intro" class="wrapper style1 fullscreen fade-up">
 						<div class="inner">
-							<h1>Welcome to my Portfolio</h1>
-							<p>My name is Jack Koltermann, and this is my portfolio of data science projects  <!--<a href="http://html5up.net">HTML5 UP</a> --> <br /> 
-							See my repo of all of my projects: <a href=https://github.com/jkoltermann>here</a>if interested, otherwise see below for my project overview</p>
+							<h2>My name is Jack Koltermann, and 
+								welcome to my portfolio</h2>
+							<p>Ever since I started personally programming in high school, I have been facinated in leveraging it to solve problems. 
+								I have since then become enamoured with its application in data science, particularly in deep learning. 
+								After working a year and a half in investment banking, I've realized that I want to spend my life solving problems with data science.
+								For the past 4 months, I have been rigorously studying machine learning methods through <https://generalassemb.ly/education/data-science-immersive/new-york-city?ga_campaign=immersive-remote&ga_variation=dsi-tile>General Assembly</a>
+								and I am excited to apply these skills in the industry. To exibit my skillset, I have prepared a portfolio of projects where I
+								 used modern deep learning, natural language processing, and multivariable regression to solve unique problems. I hope you enjoy reading through my work.</p>
 							<ul class="actions">
-								<li><a href="#one" class="button scrolly">Learn more</a></li>
+								<li><a href="#one" class="button scrolly">Projects</a></li>
 							</ul>
 						</div>
 					</section>
 
-				<!-- One -->
+
 					<section id="one" class="wrapper style2 spotlights">
+						
 						<section>
-							<a href="#" class="image"><img src="images/pic01.jpg" alt="" data-position="center center" /></a>
+							<!-- a href="images/GAN MVP.jpg" class="image">-->
+							<!--<img src="./images/Ableton-Live-MIDI-Notes-Editing.jpg" width=50%  data-position="top center"/>-->
 							<div class="content">
 								<div class="inner">
-									<h2>Sed ipsum dolor</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
+									<h2>Generative Adversarial Network</h2>
+									<p>After reading a few papers on generative adversarial networks, I learned how GAN's can be used to generate tabular data. Using The spotify API, I used their 
+										music analysis data from the songs of the the top house and techno artists to train a discriminator and generator network that transforms a noise vector into a 
+										completely new musical rhythm tensor. I then created a method to transform that tensor into music midi files, which are usable in a drum machine within a DAW.
+									</p>
 									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
+										<li><a href="https://github.com/jkoltermann/Music_GAN" class="button">GitHub</a></li>
 									</ul>
 								</div>
 							</div>
 						</section>
-						<section>
-							<a href="#" class="image"><img src="images/pic02.jpg" alt="" data-position="top center" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Feugiat consequat</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
-									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
-						<section>
-							<a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Ultricies aliquam</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
-									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
-					</section>
 
-				<!-- Two -->
-					<section id="two" class="wrapper style3 fade-up">
-						<div class="inner">
-							<h2>What we do</h2>
-							<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
-							<div class="features">
-								<section>
-									<span class="icon solid major fa-code"></span>
-									<h3>Lorem ipsum amet</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-lock"></span>
-									<h3>Aliquam sed nullam</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-cog"></span>
-									<h3>Sed erat ullam corper</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-desktop"></span>
-									<h3>Veroeros quis lorem</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-link"></span>
-									<h3>Urna quis bibendum</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-								</section>
-								<section>
-									<span class="icon major fa-gem"></span>
-									<h3>Aliquam urna dapibus</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-								</section>
+						<section>
+							<!-- <img src="./images/Word Network.jpg"  width = 438 height=438 data-position="center center"/> -->
+							<div class="content">
+								<div class="inner">
+									<h2>Natural Language Processing</h2>
+									<p>In this project, I decided to create a classification model with a realistic use case. If Reddit wanted to increase user engagement, 
+										one method they could employ is to introduce users to subreddits that they could also be interested in. As an introductory proof of concept, I created a binary predictive model that 
+										attempts to predict which subreddit a post belongs to. I chose r/science and r/space, and employed logistic regression, KNN, and random forest classification methods. </p>
+									<ul class="actions">
+										<li><a href="https://github.com/jkoltermann/Reddit-Natural-Language-Processing" class="button">GitHub</a></li>
+									</ul>
+								</div>
 							</div>
-							<ul class="actions">
-								<li><a href="generic.html" class="button">Learn more</a></li>
-							</ul>
-						</div>
+						</section>
+
+						<section>
+							<!--<img src="./images/Ableton-Live-MIDI-Notes-Editing.jpg"  data-position="25% 25%" /></a> -->
+							<div class="content">
+								<div class="inner">
+									<h2>Multivariable Regression</h2>
+									<p>In a Kaggle competition, I am tasked with determining the relationship between a large set of variables and single family housing prices around Ames, Iowa. 
+										This analysis will involve collecting and analyzing data on various factors that may affect housing prices, such as neighborhood, size, and age of the properties. 
+										The ultimate goal is to provide a theoretical with insights on how these factors impact housing prices in the area, 
+										and to identify potential opportunities for investment in the single family housing market around Ames, Iowa. 
+										In this project I employ traditional linear regression methods, and additionally feature-minimizing methods such as lasso and ridge regression. </p>
+									<ul class="actions">
+										<li><a href="https://github.com/jkoltermann/Multi-Variable-Regression/blob/main/README.md" class="button">GitHub</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
 					</section>
+	
+
 
 				<!-- Three -->
 					<section id="three" class="wrapper style1 fade-up">
 						<div class="inner">
 							<h2>Get in touch</h2>
-							<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
+							<p>I would love to help your company! To reach out please fill out a form or contact me with contact information included below.</p>
 							<div class="split style1">
 								<section>
 									<form method="post" action="#">
@@ -172,11 +156,8 @@
 										<li>
 											<h3>Social</h3>
 											<ul class="icons">
-												<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-												<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-												<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-												<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-												<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+												<li><a href="https://github.com/jkoltermann" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+												<li><a href="https://www.linkedin.com/in/jackkoltermann/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
 											</ul>
 										</li>
 									</ul>
@@ -191,7 +172,7 @@
 			<footer id="footer" class="wrapper style1-alt">
 				<div class="inner">
 					<ul class="menu">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						<li>&copy; Jack Koltermann Portfolio. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 					</ul>
 				</div>
 			</footer>
